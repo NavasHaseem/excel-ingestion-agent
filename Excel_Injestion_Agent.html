@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Excel Ingestion Agent</title>
+</head>
+<body>
+    <h1>Excel Test Case Ingestion</h1>
+    <form action="http://localhost:5000/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".xlsx,.xls" required>
+        <button type="submit">Upload & Process</button>
+    </form>
+</body>
+</html>
